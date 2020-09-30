@@ -10,4 +10,7 @@ display_board(board)
 # Make sure to execute #play below
 count = 0
 while count < 9
-  turn(board,
+  turn(board)
+  count += 1
+end
+  
